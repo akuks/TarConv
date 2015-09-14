@@ -104,8 +104,7 @@ sub fileConverter {
 
 	print $pFH "#!/usr/bin/perl\n\n";
 
-	print $pFH 'exec \'/bin/sh\', \'-c\', <<\'TarConv\', $0, @ARGV', "\n";
-	#print $pFH "\n\n";
+	print $pFH 'exec \'/bin/sh\', \'-c\', <<\'TarConv\', $0, @ARGV', "\n\n";
 	print $pFH @sFileContent;
 	print $pFH "TarConv\n";
  
