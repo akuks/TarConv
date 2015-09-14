@@ -66,7 +66,7 @@ if(defined $dir){
 }
 
 if(defined $file){
-
+	fileConverter($sFile);
 }
 
 sub usage{
