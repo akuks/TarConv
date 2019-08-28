@@ -12,4 +12,4 @@ Usage :
              -o {out directory where the converted files are stored},
 			       -help {to get the Usage of the utility}
 
-and convert the shell into the output directory. If no output directory is given. This programm will create the directory cOutDir in the current directory and place the converted in that directory.
+and convert the shell into the output directory. If no output directory is given. Script creates directory cOutDir in the current directory and place the converted in that directory.
